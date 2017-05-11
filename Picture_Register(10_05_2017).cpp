@@ -38,11 +38,11 @@ class PHOTO
 		
 		void FixExhibit ()
 			{
-				if(strcmpi(Category,"antique"))
+				if(strcmpi(Category,"Antique"))
 					strcpy(Exhibit,"Zaveri");
-				else if(strcmpi(Category,"modern"))
+				else if(strcmpi(Category,"Modern"))
 					strcpy(Exhibit,"Johnsen");
-				else if(strcmpi(Category,"classic"))
+				else if(strcmpi(Category,"Classic"))
 					strcpy(Exhibit,"Terenida");
 			}
 		
